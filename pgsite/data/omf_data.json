@@ -1,0 +1,358 @@
+{
+    "22": {
+        "gldIndex": 22, 
+        "object": "node", 
+        "id": 5, 
+        "name": "network_node"
+    }, 
+    "23": {
+        "from": "network_node", 
+        "name": "substation_transformer", 
+        "object": "transformer", 
+        "to": "650", 
+        "gldIndex": 23, 
+        "id": 2
+    }, 
+    "24": {
+        "from": "632", 
+        "name": "632-645", 
+        "object": "overhead_line", 
+        "to": "645", 
+        "gldIndex": 24, 
+        "id": 1
+    }, 
+    "25": {
+        "from": "645", 
+        "name": "645-646", 
+        "object": "overhead_line", 
+        "to": "646", 
+        "gldIndex": 25, 
+        "id": 2
+    }, 
+    "26": {
+        "from": "630", 
+        "name": "630-632", 
+        "object": "overhead_line", 
+        "to": "632", 
+        "gldIndex": 26, 
+        "id": 3
+    }, 
+    "27": {
+        "from": "632", 
+        "name": "632-6321", 
+        "object": "overhead_line", 
+        "to": "6321", 
+        "gldIndex": 27, 
+        "id": 4
+    }, 
+    "28": {
+        "from": "6321", 
+        "name": "6321-671", 
+        "object": "overhead_line", 
+        "to": "671", 
+        "gldIndex": 28, 
+        "id": 5
+    }, 
+    "29": {
+        "from": "671", 
+        "name": "671-680", 
+        "object": "overhead_line", 
+        "to": "680", 
+        "gldIndex": 29, 
+        "id": 6
+    }, 
+    "30": {
+        "from": "671", 
+        "name": "671-684", 
+        "object": "overhead_line", 
+        "to": "684", 
+        "gldIndex": 30, 
+        "id": 8
+    }, 
+    "31": {
+        "from": "684", 
+        "name": "684-611", 
+        "object": "overhead_line", 
+        "to": "611", 
+        "gldIndex": 31, 
+        "id": 7
+    }, 
+    "32": {
+        "from": "684", 
+        "name": "684-652", 
+        "object": "underground_line", 
+        "to": "652", 
+        "gldIndex": 32, 
+        "id": 2
+    }, 
+    "33": {
+        "from": "692", 
+        "name": "692-675", 
+        "object": "underground_line", 
+        "to": "675", 
+        "gldIndex": 33, 
+        "id": 1
+    }, 
+    "34": {
+        "from": "632", 
+        "name": "632-633", 
+        "object": "overhead_line", 
+        "to": "633", 
+        "gldIndex": 34, 
+        "id": 9
+    }, 
+    "35": {
+        "gldIndex": 35, 
+        "object": "node", 
+        "id": 16, 
+        "name": "633"
+    }, 
+    "36": {
+        "gldIndex": 36, 
+        "object": "node", 
+        "id": 15, 
+        "name": "630"
+    }, 
+    "37": {
+        "gldIndex": 37, 
+        "object": "node", 
+        "id": 14, 
+        "name": "632"
+    }, 
+    "38": {
+        "gldIndex": 38, 
+        "object": "node", 
+        "id": 13, 
+        "name": "650"
+    }, 
+    "39": {
+        "gldIndex": 39, 
+        "object": "node", 
+        "id": 12, 
+        "name": "680"
+    }, 
+    "40": {
+        "gldIndex": 40, 
+        "object": "node", 
+        "id": 10, 
+        "name": "684"
+    }, 
+    "41": {
+        "gldIndex": 41, 
+        "object": "node", 
+        "id": 11, 
+        "name": "634"
+    }, 
+    "42": {
+        "gldIndex": 42, 
+        "object": "node", 
+        "id": 1, 
+        "name": "645"
+    }, 
+    "43": {
+        "gldIndex": 43, 
+        "object": "node", 
+        "id": 3, 
+        "name": "646"
+    }, 
+    "44": {
+        "gldIndex": 44, 
+        "object": "node", 
+        "id": 8, 
+        "name": "652"
+    }, 
+    "45": {
+        "gldIndex": 45, 
+        "object": "node", 
+        "id": 9, 
+        "name": "671"
+    }, 
+    "46": {
+        "gldIndex": 46, 
+        "object": "node", 
+        "id": 6, 
+        "name": "675"
+    }, 
+    "47": {
+        "gldIndex": 47, 
+        "object": "node", 
+        "id": 7, 
+        "name": "692"
+    }, 
+    "48": {
+        "gldIndex": 48, 
+        "object": "node", 
+        "id": 2, 
+        "name": "611"
+    }, 
+    "49": {
+        "gldIndex": 49, 
+        "object": "node", 
+        "id": 4, 
+        "parent": "671", 
+        "name": "6711"
+    }, 
+    "50": {
+        "gldIndex": 50, 
+        "object": "node", 
+        "id": 17, 
+        "name": "6321"
+    }, 
+    "51": {
+        "from": "671", 
+        "name": "671-692", 
+        "object": "switch", 
+        "to": "692", 
+        "gldIndex": 51, 
+        "id": 1
+    }, 
+    "52": {
+        "from": "633", 
+        "name": "633-634", 
+        "object": "transformer", 
+        "to": "634", 
+        "gldIndex": 52, 
+        "id": 1
+    }, 
+    "53": {
+        "from": "650", 
+        "name": "Reg1", 
+        "object": "regulator", 
+        "to": "630", 
+        "gldIndex": 53, 
+        "id": 1
+    }, 
+    "54": {
+        "gldIndex": 54, 
+        "object": "capacitor", 
+        "id": 1, 
+        "parent": "675", 
+        "name": "CAP1"
+    }, 
+    "55": {
+        "gldIndex": 55, 
+        "object": "capacitor", 
+        "id": 2, 
+        "parent": "675", 
+        "name": "CAP2"
+    }, 
+    "57": {
+        "gldIndex": 57, 
+        "object": "battery", 
+        "id": 3, 
+        "parent": "633", 
+        "name": "battery_s1"
+    }, 
+    "59": {
+        "gldIndex": 59, 
+        "object": "battery", 
+        "id": 2, 
+        "parent": "692", 
+        "name": "battery_s2"
+    }, 
+    "62": {
+        "gldIndex": 62, 
+        "object": "battery", 
+        "id": 1, 
+        "parent": "646", 
+        "name": "battery_s3"
+    }, 
+    "63": {
+        "gldIndex": 63, 
+        "object": "load", 
+        "id": 1, 
+        "parent": "646", 
+        "name": "load_646"
+    }, 
+    "64": {
+        "gldIndex": 64, 
+        "object": "load", 
+        "id": 2, 
+        "parent": "632", 
+        "name": "load_632"
+    }, 
+    "65": {
+        "gldIndex": 65, 
+        "object": "load", 
+        "id": 7, 
+        "parent": "633", 
+        "name": "load_633"
+    }, 
+    "66": {
+        "gldIndex": 66, 
+        "object": "load", 
+        "id": 3, 
+        "parent": "611", 
+        "name": "load_611"
+    }, 
+    "67": {
+        "gldIndex": 67, 
+        "object": "load", 
+        "id": 4, 
+        "parent": "671", 
+        "name": "load_671"
+    }, 
+    "68": {
+        "gldIndex": 68, 
+        "object": "load", 
+        "id": 5, 
+        "parent": "675", 
+        "name": "load_675"
+    }, 
+    "69": {
+        "gldIndex": 69, 
+        "object": "load", 
+        "id": 6, 
+        "parent": "652", 
+        "name": "load_652"
+    }, 
+    "70": {
+        "gldIndex": 70, 
+        "object": "load", 
+        "id": 13, 
+        "parent": "680", 
+        "name": "load_680"
+    }, 
+    "71": {
+        "gldIndex": 71, 
+        "object": "load", 
+        "id": 12, 
+        "parent": "675", 
+        "name": "gen_675"
+    }, 
+    "72": {
+        "gldIndex": 72, 
+        "object": "load", 
+        "id": 11, 
+        "parent": "632", 
+        "name": "gen_632"
+    }, 
+    "73": {
+        "gldIndex": 73, 
+        "object": "load", 
+        "id": 10, 
+        "parent": "645", 
+        "name": "PV_645"
+    }, 
+    "74": {
+        "gldIndex": 74, 
+        "object": "load", 
+        "id": 14, 
+        "parent": "634", 
+        "name": "PV_634"
+    }, 
+    "75": {
+        "gldIndex": 75, 
+        "object": "load", 
+        "id": 9, 
+        "parent": "652", 
+        "name": "PV_652"
+    }, 
+    "76": {
+        "gldIndex": 76, 
+        "object": "load", 
+        "id": 8, 
+        "parent": "671", 
+        "name": "PV_671"
+    }
+}
