@@ -50,4 +50,13 @@ myBus1Value = myFeeder.d_buses.all().values()[0]
 print type(myBus1Value), myBus1Value
 
 
-#get the bus with feeder_name
+'''
+write raw sql without ORM
+https://docs.djangoproject.com/en/1.9/topics/db/sql/
+'''
+print 'use raw sql'
+from django.db import connection
+cursor = connection.cursor()
+cursor.execute("SELECT * FROM D_Bus")
+row = cursor.fetchone()
+print row
